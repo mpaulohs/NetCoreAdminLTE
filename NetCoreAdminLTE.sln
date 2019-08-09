@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFECF23B-4A43-4B8F-B3FE-9E0A8A43574D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adminlte", "src\adminlte\adminlte.csproj", "{68B4B65D-2A79-4FBE-A836-4C242FD3D005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adminlte", "src\adminlte\adminlte.csproj", "{68B4B65D-2A79-4FBE-A836-4C242FD3D005}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
