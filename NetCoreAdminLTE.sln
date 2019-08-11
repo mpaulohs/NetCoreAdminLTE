@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DFECF23B-4A43-4B8F-B3FE-9E0A8A43574D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adminlte", "src\adminlte\adminlte.csproj", "{68B4B65D-2A79-4FBE-A836-4C242FD3D005}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularAdminLTE", "src\AngularAdminLTE\AngularAdminLTE.csproj", "{AEE127D5-589A-4ACB-8C5E-3D5107467EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adminlte", "src\adminlte\adminlte.csproj", "{7CFC0395-44EE-4DF0-9BD0-D2EDFE13E220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +15,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{68B4B65D-2A79-4FBE-A836-4C242FD3D005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68B4B65D-2A79-4FBE-A836-4C242FD3D005}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68B4B65D-2A79-4FBE-A836-4C242FD3D005}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68B4B65D-2A79-4FBE-A836-4C242FD3D005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEE127D5-589A-4ACB-8C5E-3D5107467EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE127D5-589A-4ACB-8C5E-3D5107467EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE127D5-589A-4ACB-8C5E-3D5107467EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE127D5-589A-4ACB-8C5E-3D5107467EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFC0395-44EE-4DF0-9BD0-D2EDFE13E220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFC0395-44EE-4DF0-9BD0-D2EDFE13E220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFC0395-44EE-4DF0-9BD0-D2EDFE13E220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFC0395-44EE-4DF0-9BD0-D2EDFE13E220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{68B4B65D-2A79-4FBE-A836-4C242FD3D005} = {DFECF23B-4A43-4B8F-B3FE-9E0A8A43574D}
+		{AEE127D5-589A-4ACB-8C5E-3D5107467EEE} = {DFECF23B-4A43-4B8F-B3FE-9E0A8A43574D}
+		{7CFC0395-44EE-4DF0-9BD0-D2EDFE13E220} = {DFECF23B-4A43-4B8F-B3FE-9E0A8A43574D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0B0B733-F8C7-4459-9A89-D0467AA00F52}
